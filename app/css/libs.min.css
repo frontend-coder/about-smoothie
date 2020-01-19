@@ -3426,9 +3426,9 @@ body input:required:valid, body textarea:required:valid {
   height: 130px;
   content: '';
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
-  background: transparent url("/img/slider-decorate/top-decorate.svg") center top no-repeat;
+  background: transparent url("/img/slider-decorate/top-decorate.svg") center top repeat-x;
 }
 
 .baner_decorate:after {
@@ -3436,9 +3436,9 @@ body input:required:valid, body textarea:required:valid {
   height: 110px;
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
-  background: transparent url("/img/slider-decorate/botttom-decorate.svg") center bottom no-repeat;
+  background: transparent url("/img/slider-decorate/botttom-decorate.svg") center bottom repeat-x;
 }
 
 .baner-slider h2 {
@@ -3464,7 +3464,8 @@ body input:required:valid, body textarea:required:valid {
 }
 
 .block {
-  padding: 80px 0;
+  padding-top: 70px;
+  padding-bottom: 60px;
 }
 
 .about_box {
@@ -3515,7 +3516,7 @@ body input:required:valid, body textarea:required:valid {
   line-height: 37px;
   color: #433840;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .about_text {
@@ -3523,6 +3524,230 @@ body input:required:valid, body textarea:required:valid {
   font-size: 15px;
   line-height: 24px;
   color: #9A9A9A;
+}
+
+.infografic {
+  background: #FEA3AC;
+  padding: 190px 0;
+}
+
+.infografic_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.infografic_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infografic_box_items {
+  width: 25%;
+  color: #fff;
+  text-align: center;
+}
+
+.infografic_box_icon {
+  min-height: 135px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.infografic_box_number {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 60px;
+  color: #DFEEB6;
+}
+
+.infografic_box_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.comanda_box {
+  padding: 60px 0 120px 0;
+}
+
+.comanda_box h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.command_descr {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+  color: #F7A1A8;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.commandas_block_social li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.commandas_block_social li a {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+}
+
+.commandas_block_social li a[href^="https://www.facebook.com/"] {
+  background: transparent url(/img/social/facebook.png) center center no-repeat;
+}
+
+.commandas_block_social li a[href^="https://www.youtube.com/"] {
+  background: transparent url(/img/social/youtube.png) center center no-repeat;
+}
+
+.commandas_block_social li a[href^="https://www.instagram.com/"] {
+  background: transparent url(/img/social/instagram.png) center center no-repeat;
+}
+
+.commandas_block_social li a[href^="https://twitter.com/"] {
+  background: transparent url(/img/social/twitter.png) center center no-repeat;
+}
+
+.comandas_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comandas_block_items {
+  width: -webkit-calc(50% - 201px);
+  width: calc(50% - 201px);
+  background-color: #c9e3f4;
+  margin-left: 190px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.comandas_block_items:nth-child(3),
+.comandas_block_items:nth-child(2) {
+  background-color: #DFEEB6;
+}
+
+.comandas_block_number img {
+  border-radius: 10em;
+  margin-left: -190px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.comandas_block_text {
+  margin-left: 17px;
+}
+
+.comandas_block_name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.comandas_block_position {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #433840;
+}
+
+.commandas_block_p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #433840;
+}
+
+.comandas_block_items:nth-child(3),
+.comandas_block_items:nth-child(4) {
+  margin-left: 0;
+  margin-right: 190px;
+}
+
+.comandas_block_items:nth-child(3) .comandas_block_number,
+.comandas_block_items:nth-child(4) .comandas_block_number {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.comandas_block_items:nth-child(3) .comandas_block_text,
+.comandas_block_items:nth-child(4) .comandas_block_text {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-left: 0;
+  margin-right: 17px;
+  text-align: right;
+}
+
+.comandas_block_items:nth-child(3) .comandas_block_number img,
+.comandas_block_items:nth-child(4) .comandas_block_number img {
+  margin-right: -190px;
+  margin-left: 0;
 }
 
 /*==========  Desktop First  ==========*/
