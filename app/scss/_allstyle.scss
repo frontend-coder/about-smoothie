@@ -220,3 +220,125 @@ text-align: right;
 margin-right: -190px;
 margin-left: 0;
 }
+
+.footer_box {
+padding: 0;
+margin: 0;
+}
+.footer_fon {
+background: transparent url(/img/footer-fon.jpg) center center no-repeat;
+background-size: cover;
+position: relative;
+min-height: 440px;
+}
+.footer_fon:before {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	content:'';
+	background-color: #433840;
+opacity: .85;
+}
+
+.footer_line {
+background-color: #433840;
+padding: 20px 0;
+}
+.footer_line_box {
+	display: flex;
+	justify-content: space-between;
+}
+.footer_line_social li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.footer_line_social li a {
+color:#DFEEB6;
+font-size: 15px;
+line-height: 35px;
+text-align: right;
+}
+.footer_line_social li a:hover {
+color: darken(#DFEEB6, 10%);
+}
+.footer_line_box_items .copy {
+font-size: 15px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.footer_fon_box {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding: 60px 0 80px 0;
+}
+.footer_fon_box_item {
+width: 33%;
+padding-left: 10px;
+padding-right: 10px;
+	}
+	.footer_fon_title {
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #FFFFFF;
+margin-bottom: 30px;
+    text-transform: capitalize;
+	}
+.footer_fon_list li {
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+color: #FFFFFF;
+list-style-type: none;
+}
+
+.footer_fon_list li span {
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+color: #DFEEB6;
+}
+.footer_fon_locate li {
+	list-style-type: none;
+}
+.footer_fon_locate li span,
+.footer_fon_locate li a {
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.footer_fon_locate li a[href^="tel:"]  {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer_fon_locate li a[href^="meilto:"]  {
+	font-weight: 500;
+}
+.footer_fon_locate li span {
+font-weight: 400;
+}
+
+.footer_insta_list {
+display: flex;
+flex-wrap: wrap;
+list-style-type: none;
+justify-content: space-between;
+}
+.footer_insta_list li {
+width: 32%;
+	}
+	.footer_insta_list li img {
+display: inline-block;
+width: 100%;
+height: auto;
+	}
